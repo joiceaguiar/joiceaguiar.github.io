@@ -3,23 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Meu Portfólio</title>
+    <style>
+        body {
+            background-color: #8CB369;
+            text-align: justify;
+        }
+
+        h1 {
+            color: #BC4B51;
+            font-family: monospace;
+            font-size: 50px;
+        }
+
+        h2 {
+            
+        }
+
+        h4 {
+            color: #9E2A2B;
+            font-family: monospace;
+            font-size: 20px;
+        }
+
+        .button {
+            color: #8CB369;
+            background-color: #BC4B51;
+            padding: 20px;
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 25px;
+            line-height: 50px;
+            border-radius: 10px;
+        }
+
+        .picture {
+            border-radius: 10px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Meu Portfólio</h1>
+    <h1>Meu Portfólio Web</h1>
     <ul>
         <li><a href="#historia">História da foto</a></li>
         <li><a href="#eu">Quem sou eu</a></li>
         <li><a href="#habilidades">Principais habilidades</a></li>
         <li><a href="#site">Site de notícias</a></li>
     </ul>
-    <h2>Joice Aguiar</h2>
-    <img id="minha foto" src="profile.jpeg" width="400px"><br>
+    <h2><a href="#minha foto" class="button">Joice M S Aguiar</a></h2>
+    <img id="minha foto" class="picture" src="profile.jpeg" width="400px"><br>
+    <h4>História da foto</h4>
     <p id="historia">Esta foto foi tirada pelo meu companheiro, num final de semana muito especial que passamos em <strong>Guararema</strong>, interior de SP. 
         <br>Estávamos trabalhando demais na época e fomos presenteados por um amigo, para ficar três dias nesse lugar super especial.</p>
+    <h4>Quem sou eu</h4>
     <p id="eu">Eu sou a Joice, tenho 30 anos, sou brasileira e nasci em <strong>Campinas</strong> - SP. 
         <br>Meus pais se mudaram para cidade de São Paulo, quando eu tinha apenas um ano de idade e estou aqui, na <em>"terra da garoa"</em> desde então.</p>
-    <p>Adoro aprender! Sou motivada pelo conhecimento, por novos desafios e novas habilidades.
-        <br>Dentre minhas principais habilidades, estão:</p>
+    <p>Adoro aprender! Sou motivada pelo conhecimento, por novos desafios e novas habilidades.</p>
+    <h4>Habilidades</h4>
+    <p>Dentre minhas principais habilidades, estão:</p>
     <ul id="habilidades">
         <li>Autodidatismo;</li>
         <li><strong>Comunicação</strong>;</li>
@@ -28,7 +69,7 @@
         <li>Pensamento conceitual;</li>
         <li>Pensamento criativo;</li>
     </ul>
-    <p><a href="#minha foto">Minha Foto</a></p>
+    <h4>Sites que costumo acompanhar</h4>
     <p id="site">Costumo ler o site de notícias <a href="https://www.brasildefato.com.br/" target="_blank"><em>Brasil de Fato</em></a>, que também é uma agência de rádio brasileira e uma fonte confiável de informação.</p>
 </body>
 </html>
